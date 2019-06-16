@@ -828,7 +828,7 @@ img {
 	display:block;
 }
 img {max-width:100%}
-#footer {width:auto}
+
 @media screen and (max-width:600px) {
 	#avmenu {float:none;width:auto;}
 	#avmenu ul {width:100%}
