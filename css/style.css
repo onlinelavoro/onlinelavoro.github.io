@@ -844,6 +844,14 @@ img {max-width:100%}
 	#header h1 {float:none;	width:auto;}
 	* {	max-width:100%}
 	#wrap {overflow:hidden}
+        #navigation , #logo {
+		display:block!important;
+		margin:auto!important;
+		max-width:100%;
+		overflow:hidden;
+                float:left;
+                width:auto;
+	}
 }
 #footer div#links a:hover {
     color: #fff;
