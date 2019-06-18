@@ -248,12 +248,13 @@ img {
     width: 304px;
     margin-bottom: 18px;
     position: relative;
+line-height: 24px;
 }
 #featured li p {
     color: #000;
     font-family: "Muli";
     padding-bottom: 0;
-    text-transform: uppercase;
+    text-transform: uppercase;   
 }
 #featured li p span {
     color: #1a1a1a;
@@ -732,7 +733,7 @@ img {
     margin: 0 0 6px;
 }
 #footer .navigation li, #footer .connect li {
-    float: left;
+    float: none;
     width: 100px;
 }
 #newsletter {
@@ -813,7 +814,6 @@ img {
     font-family: "Muli-Light";
     font-size: 16px;
 }
-
 
 
 
