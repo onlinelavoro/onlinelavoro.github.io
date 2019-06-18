@@ -33,13 +33,13 @@ img {
     border: 0;
 }
 #header span.shadow, #footer span.shadow, #sidebar li.selected>a, #sidebar li>a:hover {
-    background: url(../images/shadows.png) repeat-x;
+    background-color: #DDADE7; repeat-x;
 }
 .play1, .play2, .play3, .btn, .previous, .next, #performances #sidebar span.more {
     background: url(../images/buttons.png) no-repeat;
 }
 #sidebar, #sidebar .section, #sidebar .section>div, #contactbox, #contactbox>div, #contactbox>div>div {
-    background-image: url(../images/bg-sidebar.png);
+    background-images: url(../images/bg_sidebar.png)
     background-repeat: no-repeat;
 }
 #featured, #footer div.section, #contact>div {
@@ -61,14 +61,14 @@ img {
 }
 .play1 {
     background-position: -33px -260px;
-    font-size: 11px;
+    font-size: 16px;
     padding-top: 36px;
     left: 105px;
     top: 51px;
 }
 .play2 {
     background-position: 8px -270px;
-    font-size: 9px;
+    font-size: 16px;
     padding-top: 16px;
     left: 45px;
     top: 24px;
@@ -150,7 +150,7 @@ img {
     padding: 24px 40px 0 20px;
 }
 #header {
-    background-color: #0ff;
+    background-color: #DDADE7;
     width: 100%;
     text-align: right;
     position: absolute;
@@ -191,7 +191,7 @@ img {
 #navigation li a {
     color: #8c8c8c;
     font-family: 'Muli-Light';
-    font-size: 15px;
+    font-size: 16px;
     line-height: 54px;
     padding: 0;
     text-decoration: none;
@@ -267,7 +267,7 @@ img {
     padding: 0;
 }
 #schedule li {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 26px;
 }
@@ -282,7 +282,7 @@ img {
     display: inline-block;
     float: left;
     font-family: "Muli";
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     width: 72px;
     margin-bottom: 6px;
@@ -297,7 +297,7 @@ img {
 }
 #about h4 {
     font-family: "NixieOne";
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 24px;
     text-transform: uppercase;
@@ -422,7 +422,7 @@ img {
     color: #fff;
     display: block;
     font-family: "Muli";
-    font-size: 13px;
+    font-size: 16px;
     height: 36px;
     line-height: 31px;
     width: 166px;
@@ -449,7 +449,7 @@ img {
     background-position: 0 -24px;
     color: #9c9c9c;
     display: inline-block;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     margin: 0 0 24px;
     padding: 0 15px;
@@ -496,7 +496,7 @@ img {
 #performances a.all {
     float: right;
     color: #000;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     margin-right: 20px;
 }
@@ -514,7 +514,7 @@ img {
     cursor: pointer;
     display: block;
     font-family: "Muli";
-    font-size: 13px;
+    font-size: 16px;
     height: 31px;
     line-height: 31px;
     width: 138px;
@@ -585,7 +585,7 @@ img {
 }
 #blogs .connect>p.time {
     float: left;
-    font-size: 11px;
+    font-size: 16px;
     padding: 0;
 }
 #contact {
@@ -605,7 +605,7 @@ img {
 #contact label {
     color: #606060;
     display: block;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
 }
 #contact input.txtfield {
@@ -629,7 +629,7 @@ img {
     color: #fff;
     cursor: pointer;
     font-family: "Muli";
-    font-size: 13px;
+    font-size: 16px;
     height: 36px;
     line-height: 31px;
     width: 80px;
@@ -654,7 +654,7 @@ img {
 #contact ul li span {
     float: left;
     display: inline-block;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     width: 90px;
 }
@@ -666,7 +666,7 @@ img {
     background-color: #fff;
     color: #606060;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     width: 100%;
     position: absolute;
@@ -682,7 +682,7 @@ img {
     top: -8px;
 }
 #footer h5 {
-    font-size: 11px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 24px;
     margin: 0 0 12px;
@@ -811,7 +811,7 @@ img {
 #footer div#links a {
     color: #8c8c8c;
     font-family: "Muli-Light";
-    font-size: 13px;
+    font-size: 16px;
 }
 
 
@@ -866,7 +866,7 @@ img {max-width:100%}
     float: left;
     color: #606060;
     font-family: "Muli-Light";
-    font-size: 13px;
+    font-size: 16px;
     height: 24px;
     line-height: 24px;
     width: 193px;
