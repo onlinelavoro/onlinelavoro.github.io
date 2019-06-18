@@ -39,7 +39,7 @@ img {
     background: url(../images/buttons.png) no-repeat;
 }
 #sidebar, #sidebar .section, #sidebar .section>div, #contactbox, #contactbox>div, #contactbox>div>div {
-    background-images: url(../images/bg_sidebar.png)
+    background-image: url(../images/bg_sidebar.png)
     background-repeat: no-repeat;
 }
 #featured, #footer div.section, #contact>div {
