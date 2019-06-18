@@ -848,7 +848,7 @@ img {max-width:100%}
 	* {	max-width:100%; padding-right:10px;}
 	#wrap {overflow:hidden}
         #mappaitalia {display:none;}  
-        #navigation , #logo, #h2  {
+        #navigation , #logo , #h2  {
 		display:block!important;
 		margin:auto!important;
 		max-width:100%;
