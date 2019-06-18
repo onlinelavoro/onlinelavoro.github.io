@@ -831,28 +831,31 @@ img {max-width:100%}
 
 @media screen and (max-width:960px) {
 	#avmenu {float:none;width:auto;}
-	#avmenu ul {width:100%}
+	#avmenu ul {width:100%; padding-right:10px;}
 	#avmenu img, #avmenu iframe, #avmenu ins, #content ins, ins {
 		display:block!important;
 		margin:auto!important;
 		max-width:100%;
 		overflow:hidden;
+                padding-right:10px 
 	}
-	#content {margin:10px 0}
+	#content {margin:10px 0; padding-right:10px;}
         .frame1 {display:none;} 
 	.announce {margin:auto}
- 	#header, #footer, #content {margin:0 0 10px}
-	#header h1 {float:none;	width:auto;}
-	* {	max-width:100%}
+        .body {padding-right:20px}
+ 	#header, #footer, #content {margin:0 0 10px; padding-right:10px;}
+	#header h1 {float:none;	width:auto; padding-right:10px;}
+	* {	max-width:100%; padding-right:10px;}
 	#wrap {overflow:hidden}
         #mappaitalia {display:none;}  
-        #navigation , #logo {
+        #navigation , #logo, #h2  {
 		display:block!important;
 		margin:auto!important;
 		max-width:100%;
 		overflow:hidden;
                 float:left;
                 width:auto;
+                padding-right:10px;
 	}
 }
 #footer div#links a:hover {
@@ -863,6 +866,7 @@ img {max-width:100%}
 }
 #searchbar h3 {
     color: #606060;
+    padding-right:10px; 
 }
 #searchbar input {
     float: left;
@@ -881,5 +885,10 @@ img {max-width:100%}
     border: 0;
     margin: 0 0 0 6px;
     padding: 0;
+}
+#contents li {
+    line-height: 20px;
+    margin: 0;
+    padding: 0 0 20px;
 }
 
