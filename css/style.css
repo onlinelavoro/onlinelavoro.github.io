@@ -713,7 +713,6 @@ line-height: 24px;
     float: left;
     background-position: 0 -498px;
     min-height: 180px;
-    width: 200px;
     margin-left: 20px;
     padding: 16px 0 16px 26px;
 }
@@ -847,7 +846,7 @@ img {max-width:100%}
 	* {	max-width:100%; padding-right:10px;}
 	#wrap {overflow:hidden}
         #mappaitalia {display:none;}  
-        #navigation , #logo , #h2  {
+        #navigation , #h2  {
 		display:block!important;
 		margin:auto!important;
 		max-width:100%;
@@ -867,7 +866,6 @@ text-align: center;
     display: block;
 max-width: 100%;
     margin: auto;
-    width: 60%;
     padding: 10px;
 
 }
@@ -876,7 +874,6 @@ max-width: 100%;
     display: block;
 max-width: 100%;
     margin: auto;
-    width: 60%;
     padding: 10px;
 }
 }
