@@ -857,10 +857,9 @@ img {max-width:100%}
                 width:auto;
                 padding-right:10px;
 	}
-#footer .navigation li , #footer a , #footer h5 , #footer .connect li , #footer li , #footer .connect a {
+#footer .navigation li , #content li , #footer a , #footer h5 , #footer .connect li , #footer li , #footer .connect a {
     max-width: 100%;
     margin: auto;
-    width: 60%;
     padding: 10px;
 text-align: center;
 }
