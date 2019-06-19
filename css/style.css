@@ -876,6 +876,7 @@ max-width: 100%;
     margin: auto;
     padding: 10px;
 }
+#content #schedules {float: none;}
 }
 #footer div#links a:hover {
     color: #fff;
