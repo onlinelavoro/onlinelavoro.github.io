@@ -819,7 +819,7 @@ line-height: 24px;
 
 #wrap {
 	width:auto;
-	max-width:960px
+	max-width:980px
 }
 #frontphoto {
 	width:100%;
@@ -829,7 +829,7 @@ line-height: 24px;
 }
 img {max-width:100%}
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:980px) {
 	#avmenu {float:none;width:auto;}
 	#avmenu ul {width:100%; padding-right:10px;}
 	#avmenu img, #avmenu iframe, #avmenu ins, #content ins, ins {
