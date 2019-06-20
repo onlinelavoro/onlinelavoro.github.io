@@ -203,10 +203,11 @@ img {
     display: inline-block;
     width: 100%;
     padding-top: 42px;
+    margin: auto;
 }
 #contents>div.body {
     width: 950px;
-    padding-left: 10px;
+    padding-left: none;
 }
 #contents h2, #contents h3 {
     color: #000;
@@ -363,7 +364,7 @@ line-height: 24px;
 }
 #contents #schedules {
     width: 940px;
-    padding: 0 10px;
+    padding: none;
 }
 #contents #schedules {
     padding: 0 10 px;
@@ -670,7 +671,6 @@ line-height: 24px;
     font-size: 16px;
     line-height: 24px;
     width: 100%;
-    position: absolute;
     left: 0;
 }
 #footer span.shadow {
@@ -699,7 +699,7 @@ line-height: 24px;
 #footer>div {
     width: 940px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: none;
 }
 #footer>div:after {
     clear: both;
@@ -712,9 +712,9 @@ line-height: 24px;
 #footer div.section {
     float: left;
     background-position: 0 -498px;
-    min-height: 180px;
-    margin-left: 20px;
-    padding: 16px 0 16px 26px;
+    width: 25%;
+    margin: auto;
+    
 }
 #footer div.section:first-child {
     background: 0;
@@ -815,6 +815,17 @@ line-height: 24px;
 }
 
 
+
+#footer .navigation li , #content li , #footer a , #footer h5 , #footer .connect li , #footer li , #footer .connect a {
+    max-width: 100%;
+    margin: auto;
+text-align: center;
+}
+
+
+
+
+
 #wrap {
 	width:auto;
 	max-width:980px
@@ -861,18 +872,16 @@ text-align: center;
 #footer div.section {
     float: none;
     display: block;
-max-width: 100%;
     margin: auto;
 
 }
 #footer div.section:first-child {
     float: none;
     display: block;
-max-width: 100%;
     margin: auto;
 }
 #contents #schedules , div {max-width: 100%;}
-#contents #schedules , #schedules , #main , #footer>div {max-width: 100%; float: none; margin: auto;}
+#contents #schedules , #schedules , #main , #footer>div , #schedules #sidebar .section>div {max-width: 100%; float: none; margin: auto;}
 #header>div {max-width: 100%; float:none; display: block; height: auto; margin: auto;}
 }
 #footer div#links a:hover {
