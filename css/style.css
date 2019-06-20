@@ -366,7 +366,7 @@ line-height: 24px;
     padding: 0 10px;
 }
 #contents #schedules {
-    padding: 0 10px;
+    padding: 0 10 px;
 }
 #schedules #sidebar {
     background: 0;
@@ -829,20 +829,19 @@ img {max-width:100%}
 
 @media screen and (max-width:980px) {
 	#avmenu {float:none;width:auto;}
-	#avmenu ul {width:100%; padding-right:10px;}
+	#avmenu ul {width:100%;}
 	#avmenu img, #avmenu iframe, #avmenu ins, #content ins, ins {
 		display:block!important;
 		margin:auto!important;
 		max-width:100%;
 		overflow:hidden;
-                padding-right:10px 
-	}
-	#content {margin:10px 0; padding-right:10px;}
+                	}
+	#content {margin:10px 0;}
         .frame1 {display:none;} 
 	.announce {margin:auto}
-        .body {padding-right:10px; max-width:100%;}
- 	#header, #footer, #content {margin:0 0 10px; padding-right:10px;}
-	#header h1 {float:none;	width:auto; padding-right:10px;}
+        .body { max-width:100%;}
+ 	#header, #footer, #content {margin:0 0 10px;}
+	#header h1 {float:none;	width:auto;}
 	* {	max-width:100%;}
 	#wrap {overflow:hidden}
         #mappaitalia {display:none;}  
@@ -853,12 +852,10 @@ img {max-width:100%}
 		overflow:hidden;
                 float:left;
                 width:auto;
-                padding-right:10px;
 	}
 #footer .navigation li , #content li , #footer a , #footer h5 , #footer .connect li , #footer li , #footer .connect a {
     max-width: 100%;
     margin: auto;
-    padding: 10px;
 text-align: center;
 }
 #footer div.section {
@@ -866,7 +863,6 @@ text-align: center;
     display: block;
 max-width: 100%;
     margin: auto;
-    padding: 10px;
 
 }
 #footer div.section:first-child {
@@ -874,9 +870,10 @@ max-width: 100%;
     display: block;
 max-width: 100%;
     margin: auto;
-    padding: 10px;
 }
-#content #schedules {float: none;}
+#contents #schedules , div {max-width: 100%;}
+#contents #schedules , #schedules , #main , #footer>div {max-width: 100%; float: none; margin: auto;}
+#header>div {max-width: 100%; float:none; display: block; height: auto; margin: auto;}
 }
 #footer div#links a:hover {
     color: #fff;
@@ -886,7 +883,7 @@ max-width: 100%;
 }
 #searchbar h3 {
     color: #606060;
-    padding-right:10px; 
+    ; 
 }
 #searchbar input {
     float: left;
