@@ -840,10 +840,10 @@ img {max-width:100%}
 	#content {margin:10px 0; padding-right:10px;}
         .frame1 {display:none;} 
 	.announce {margin:auto}
-        .body {padding-right:20px}
+        .body {padding-right:10px; max-width:100%;}
  	#header, #footer, #content {margin:0 0 10px; padding-right:10px;}
 	#header h1 {float:none;	width:auto; padding-right:10px;}
-	* {	max-width:100%; padding-right:10px;}
+	* {	max-width:100%;}
 	#wrap {overflow:hidden}
         #mappaitalia {display:none;}  
         #navigation , #h2  {
