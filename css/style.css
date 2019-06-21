@@ -836,7 +836,7 @@ text-align: center;
 	margin:auto;
 	display:block;
 }
-img {max-width:100%}
+
 
 @media screen and (max-width:980px) {
 	#avmenu {float:none;width:auto;}
@@ -850,13 +850,13 @@ img {max-width:100%}
 	#content {margin:10px 0;}
         .frame1 {display:none;} 
 	.announce {margin:auto}
-        .body { max-width:100%;}
- 	#header, #footer, #content {margin:0 0 10px;}
+        .body { max-width:90%; display: block; margin: auto; padding-top: 300px;}
+ 	#header, #footer, #content {margin:0 0 10px; display: block;}
 	#header h1 {float:none;	width:auto;}
 	* {	max-width:100%;}
 	#wrap {overflow:hidden}
         #mappaitalia {display:none;}  
-        #navigation , #h2  {
+        #h2  {
 		display:block!important;
 		margin:auto!important;
 		max-width:100%;
@@ -868,21 +868,53 @@ img {max-width:100%}
     max-width: 100%;
     margin: auto;
 text-align: center;
+padding: 20px;
 }
 #footer div.section {
     float: none;
     display: block;
     margin: auto;
-
+    width:200%;
 }
 #footer div.section:first-child {
     float: none;
     display: block;
     margin: auto;
+    width:200%;
 }
 #contents #schedules , div {max-width: 100%;}
-#contents #schedules , #schedules , #main , #footer>div , #schedules #sidebar .section>div {max-width: 100%; float: none; margin: auto;}
-#header>div {max-width: 100%; float:none; display: block; height: auto; margin: auto;}
+#contents #schedules , #schedules , #main , #footer>div , #schedules #sidebar .section>div , #schedules #sidebar {max-width: 100%; float: none; margin: auto;}
+#header>div {max-width: 100%; float:none; display: block; height: auto; margin: auto; padding: 0px;}
+#footer a , #footer .connect a {
+  border-radius: 25px;
+  border: 3px solid #DDADE7;
+  padding: 5px;
+}
+#footer h5 {
+  border-square: 25px;
+  border: 3px solid #DDADE7;
+  padding: 5px;
+  background-color: #DDADE7; 
+  color: #fff;
+}
+#navigation li a { border-square: 25px;
+  border: 3px solid #fff;
+  padding: 5px;
+}
+#contents div#footer {padding-top: 0px;}
+#contents #footer li {padding: 20px;}
+#sidebar ul li {max-width: 100%; padding-top: 20px; padding-bottom: 20px;}
+#sidebar ul li>a {max-width: 100%; text-align: center; border-square: 25px;
+  border: 3px solid #ddade7;
+  padding: 5px;}
+#contents h1 {max-width: 90%; display: block; text-align: center; margin: auto;}
+#footer ul {max-width:100%;}
+#contents div.body {display: block;}
+#header a#logo {padding-bottom: 20px; margin: auto; max-width: 100%; text-align: center; float: none; width:100%;}
+#header ul#navigation {margin: auto; max-width: 100%; text-align: center; float: none; width:100%; display: block;}
+#contents>div {padding-top: 215px;}
+#navigation li {display: inline-block; float: none; margin: auto; text-align: center; padding-right: 30px; padding-left: 30px; padding-bottom:20px;}
+#contents #schedules, div {display: block; max-width: 100%; float:none;}
 }
 #footer div#links a:hover {
     color: #fff;
