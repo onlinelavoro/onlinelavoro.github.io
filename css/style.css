@@ -357,14 +357,14 @@ line-height: 24px;
     width: 100%;
     font-size: 18px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; 
 }
 #sidebar ul li>a {
     color: #000;
     display: block;
-    font-size: 18px;
-    padding-left: 20px;
+    font-size: 17px;
     text-decoration: none;
+    border: 1px solid #DDADE7;
 }
 #contents #schedules {
     width: 940px;
@@ -694,12 +694,11 @@ line-height: 24px;
     text-transform: uppercase;
     background-color: #DDADE7;
     color: #fff;
-    border: 5px solid #fff;
+    border: 2px solid #000;
 }
 #footer a {
     text-decoration: none;
     border-radius: 25px;
-    border: 2px solid #000;
     padding: 5px;
     background-color: #DDADE7;
     color: #000;
@@ -744,7 +743,6 @@ line-height: 24px;
     margin: 0 0 0px;
     padding-top: 10px;
     padding-bottom: 20px;
-
 }
 #footer .navigation li, #footer .connect li {
     float: none;
