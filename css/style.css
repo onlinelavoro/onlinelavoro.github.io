@@ -193,8 +193,10 @@ img {
     font-family: 'Muli-Light';
     font-size: 18px;
     line-height: 54px;
-    padding: 0;
     text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 5px;
 }
 #navigation li a:hover, #navigation li.selected a {
     color: #fff;
@@ -354,6 +356,8 @@ line-height: 24px;
     display: inline-block;
     width: 100%;
     font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #sidebar ul li>a {
     color: #000;
@@ -688,16 +692,23 @@ line-height: 24px;
     line-height: 24px;
     margin: 0 0 12px;
     text-transform: uppercase;
+    background-color: #DDADE7;
+    color: #fff;
+    border: 5px solid #fff;
 }
 #footer a {
-    color: #606060;
     text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid #000;
+    padding: 5px;
+    background-color: #DDADE7;
+    color: #000;
 }
 #footer a:hover {
     color: #000;
 }
 #footer>div {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     padding: none;
 }
@@ -712,14 +723,15 @@ line-height: 24px;
 #footer div.section {
     float: left;
     background-position: 0 -498px;
-    width: 25%;
     margin: auto;
-    
+    width: 27%;   
 }
 #footer div.section:first-child {
     background: 0;
     margin-left: 0;
     padding-left: 0;
+    width: 19%;
+    
 }
 #footer ul {
     display: inline-block;
@@ -729,11 +741,16 @@ line-height: 24px;
     padding: 0;
 }
 #footer li {
-    margin: 0 0 6px;
+    margin: 0 0 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
 }
 #footer .navigation li, #footer .connect li {
     float: none;
-    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
 }
 #newsletter {
     display: inline-block;
@@ -947,7 +964,7 @@ padding: 20px;
 #contents li {
     line-height: 20px;
     margin: 0;
-    padding: 0 0 20px;
+    
 }
 
 
